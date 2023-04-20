@@ -1,0 +1,162 @@
+.navbar {
+  /* letra del navbar */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  /* personalizacion de navbar */
+  color: #a5b5ab;
+  font-size: 35px;
+  display: inline-block;
+  letter-spacing: 4px;
+}
+
+body {
+  /* ajustes del body */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/04/21142810/barba-3.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  font-family: "Roboto Mono", monospace;
+}
+
+.color-letra {
+  /* color de letra menu */
+  color: #a5b5ab;
+}
+
+.color-letra:hover {
+  /* hover menu */
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+
+.sin-hover:hover {
+  /* ajuste de logo */
+  color: white;
+}
+
+.navbar-toggler {
+  /* ajuste de nav */
+  background-color: #a5b5ab;
+}
+
+.presentacion {
+  /* ajuste de texto */
+  color: white;
+  margin-top: 15%;
+}
+
+.bien {
+  /* ajuste de imagen */
+  color: white;
+  margin-top: 10%;
+}
+
+.img-tamaño {
+  /* personalizacion de imagen */
+  display: flex;
+  border: #8dc4b7 2px solid;
+  border-radius: 15px;
+  width: auto;
+  height: 350px;
+}
+
+.slide {
+  /* margen de slide */
+  margin-top: 10px;
+}
+
+.slide img {
+  /* slide de imagen */
+  width: 80vh;
+  height: 80vh;
+}
+
+.sombra {
+  /* sombra de carousel */
+  font-weight: 900;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+}
+.footer {
+  /* personalizacion de footer */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}
+
+.formulario {
+  /* personalizacion de formulario */
+  width: 400px;
+  background: #5d5a4e;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  box-shadow: 7px 13px 7px #000;
+}
+
+.formulario h1 {
+  /* titulo formulario */
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.control {
+  /* casillas formulario */
+  width: 100%;
+  background-color: #c4c4c2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: 2px solid #246e95;
+  font-family: "calibri";
+  font-size: 18px;
+}
+
+.boton {
+  /* boton formulario */
+  width: 100%;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-family: "calibri";
+  font-size: 22px;
+  background: #234f9e;
+}
+
+.botones-redes {
+  /* persolizacion botones con link */
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20%;
+}
+
+.botones-redes a {
+  /* estilo botones */
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: linear-gradient(#a1ffce, #faffd1);
+  color: #314652;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+.botones-redes a:hover {
+  /* animacion botones */
+  transform: scale(1.2);
+}
